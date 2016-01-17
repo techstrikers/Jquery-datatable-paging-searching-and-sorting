@@ -1,0 +1,2 @@
+# Jquery-datatable-paging-searching-and-sorting
+In this article I am going to discuss how to represent data in tabular format with sorting, searching and ordering features. Nowadays many online business web application requires to represent data in tabular style with look and feel. There are lots of free tools and plug-in are available online which support's similar kind of data representation. http://www.techstrikers.com/Articles/jquery-datatable-paging-searching-and-sorting.php
