@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample JQuery DataTable Application</title>
+    <script src="Scripts/jquery-1.11.3.min.js"></script>
+    <script src="Scripts/jquery.dataTables.js"></script>
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th {
+            font-size: 12px;
+            margin: 0;
+            background: #0026ff;
+            color: #ffffff;
+        }
+
+        body, td {
+            font-size: 12px;
+            margin: 0;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 2px;
+            display: table;
+            margin-bottom: 0;
+            margin-top: 0;
+            -moz-box-sizing: border-box;
+            text-indent: 0;
+            width:60%;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#tblEmployee').DataTable({
+                "searching": true,
+                "ordering": true,
+                "pagingType": "full_numbers",
+                "ajax": "JSONData/JSONData.json",
+                "columns": [
+                    { "data": "name" },
+                    { "data": "designation" },
+                    { "data": "salary" },
+                    { "data": "JoinDate" },
+                    { "data": "Address" },
+                    { "data": "City" },
+                    { "data": "State" },
+                    { "data": "Zip" }
+                ]
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    <table id="tblEmployee" class="display" cellspacing="0" data-page-length='5'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Salary</th>
+                <th>JoinDate</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zip</th>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+</html>

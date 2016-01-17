@@ -1,0 +1,104 @@
+﻿{
+  "data": [
+    {
+      "name": "Manoj M",
+      "designation": "Tech Lead",
+      "salary": "25000",
+      "JoinDate": "2010/11/21",
+      "Address": "12/12, East",
+      "City": "Pune",
+	  "State": "MH",
+      "Zip": "542221"
+    },
+    {
+      "name": "Rahul J",
+      "designation": "General Manager",
+      "salary": "120000",
+      "JoinDate": "2011/11/21",
+      "Address": "12-13-275, Baner",
+      "City": "Pune",
+	  "State": "MH",
+      "Zip": "532222"
+    },
+    {
+      "name": "Sachin S",
+      "designation": "Developer",
+      "salary": "12000",
+      "JoinDate": "2011/01/01",
+      "Address": "Street# 12, South Tukoganj",
+      "City": "Indore",
+	  "State": "MP",
+      "Zip": "122311"
+    },
+    {
+      "name": "Ajay S",
+      "designation": "Tech Lead",
+      "salary": "20000",
+      "JoinDate": "2012/01/01",
+      "Address": "12-13-283/284, Uppal",
+      "City": "Hyderabad",
+	  "State": "AP",
+      "Zip": "745455"
+    },
+    {
+      "name": "Manish T",
+      "designation": "QA",
+      "salary": "20000",
+      "JoinDate": "2012/01/09",
+      "Address": "Block# 12, Ho.No 12",
+      "City": "Panjab",
+	  "State": "PN",
+      "Zip": "967575"
+    },
+    {
+      "name": "Devendra R",
+      "designation": "QA Lead",
+      "salary": "25000",
+      "JoinDate": "2013/01/09",
+      "Address": "Streen# 1, Arera Colony",
+      "City": "Bhopal",
+	  "State": "MP",
+      "Zip": "432333"
+    },
+    {
+        "name": "Ashok R",
+		"designation": "Manager",
+		"salary": "105000",
+		"JoinDate": "2011/01/09",
+		"Address": "Streen# 1, Habsiguda",
+		"City": "Hyderabad",
+		"State": "AP",
+		"Zip": "432333"
+    },
+    {
+        "name": "Satya M",
+		"designation": "Project Manager",
+		"salary": "150000",
+		"JoinDate": "2010/01/09",
+		"Address": "12-13-275, Baner",
+		"City": "Pune",
+		"State": "MH",
+		"Zip": "432333"
+    },
+    {
+        "name": "Jimi S",
+		"designation": "Director",
+		"salary": "250000",
+		"JoinDate": "2009/01/01",
+		"Address": "12-13-275, Baner",
+		"City": "Pune",
+		"State": "MH",
+		"Zip": "656566"
+    },
+    {
+        "name": "Amit S",
+		"designation": "Developer",
+		"salary": "12000",
+		"JoinDate": "2009/01/01",
+		"Address": "12-13-275, Souttukoganj",
+		"City": "Indore",
+		"State": "MP",
+		"Zip": "656566"
+    }
+  ]
+}
